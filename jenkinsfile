@@ -24,7 +24,7 @@ stage('checkoutcode'){
 stage('Build'){
     sh "$mavenHome/bin/mvn clean package"
 }
-
+/*
 //GENERATE SONARQUBE REPORT - 3 
 stage('SonarQube Report'){
     sh "$mavenHome/bin/mvn sonar:sonar"
@@ -41,6 +41,7 @@ stage('Deploy App to TomCat '){
       sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ubuntu@43.205.217.173:/opt/apache-tomcat-9.0.76/webapps"
 }
 }
+*/
 
 }// closing node
 
