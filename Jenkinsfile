@@ -3,10 +3,11 @@
 ////  SCRIPTED way pipeline :------------------------------------------------------------------------------------------------
 //
 
+/*
 //   ( by defult master intance s)
 node('master'){
 }
-
+*/
 
 
 node{ // starting node
