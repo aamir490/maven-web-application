@@ -19,13 +19,13 @@ node{ // starting node
 def mavenHome = tool name: "maven3.9.2"
 
 // Find node name :-
-echo "The Node Name Is: " ${env.NODE_NAME}
+echo "The Node Name Is:  ${env.NODE_NAME} "
 
 // Find job name :-
-echo "The job Name Is: " ${env.JOB_NAME}
+echo "The job Name Is:  ${env.JOB_NAME} "
 
 // Find build number :-
-echo "The build Name Is: " ${env.BUILD_NUMBER}
+echo "The build Name Is:  ${env.BUILD_NUMBER} "
 
 
 
