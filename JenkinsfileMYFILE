@@ -13,8 +13,20 @@ node('master'){
 
 node{ // starting node
 
+
+
 // Becz 'maven' not installed in jenkins server we are create variable:-
 def mavenHome = tool name: "maven3.9.2"
+
+// Find node name :-
+echo "The Node Name Is: " ${env.NODE_NAME}
+
+// Find job name :-
+echo "The job Name Is: " ${env.JOB_NAME}
+
+// Find build number :-
+echo "The build Name Is: " ${env.BUILD_NUMBER}
+
 
 
 //CHECKOUT STAGE - 1 
